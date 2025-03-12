@@ -1,3 +1,23 @@
+# PROMPT
+
+Modifica este código HTML para que cumpla con los estándares de accesibilidad WCAG 2.2 (WAI) en nivel AA y, opcionalmente, AAA. Asegúrate de:
+
+1. **Especificar el idioma de la página web** con `lang="es"` en la etiqueta `<html>`.
+2. **Añadir atributos ARIA adecuados** en formularios, botones, enlaces e imágenes.
+3. **Usar etiquetas semánticas HTML5** como `<header>`, `<main>`, `<section>`, `<article>` en lugar de `<div>` genéricos.
+4. **Incluir descripciones significativas** en los atributos `alt` de todas las imágenes.
+5. **Asegurar jerarquía correcta de encabezados** (`<h1>` para títulos principales, `<h2>`, `<h3>` para subsecciones).
+6. **Garantizar accesibilidad en formularios**, asociando etiquetas `<label>` correctamente con los inputs.
+7. **Implementar accesibilidad en la navegación por teclado**, asegurando que todos los elementos interactivos sean accesibles con `Tab` y tengan `:focus` visible.
+8. **Asegurar un contraste de colores suficiente** para el texto y los fondos.
+9. **Agregar descripciones accesibles** en enlaces con `aria-label` cuando el texto del enlace sea ambiguo (ejemplo: "haz clic aquí").
+10. **Verificar que los mensajes de error y validación en formularios sean accesibles**, utilizando `aria-describedby`.
+11. **Mejorar la experiencia de usuario** mediante roles adecuados y puntos de referencia accesibles (`role="navigation"`, `role="banner"`, etc.).
+
+Genera código HTML optimizado que cumpla con estos requisitos y mantenga una estructura clara y limpia.
+
+
+
 # Accesibilidad-WCAG-HTML
 
 Proceso de Desarrollo del Prompt para Mejorar la Accesibilidad en HTML (WCAG 2.2)
